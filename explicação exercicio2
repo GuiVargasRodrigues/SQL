@@ -1,0 +1,17 @@
+Este script SQL cria um banco de dados chamado "exercicio2" e define três tabelas: "ALUNO", "TURMA" e "MATRICULA".
+
+A tabela "ALUNO" armazena informações sobre os alunos, como nome, curso, nível e idade.
+A tabela "TURMA" armazena informações sobre as turmas, como o nome da turma, sala e horário.
+A tabela "MATRICULA" é uma tabela de junção que relaciona alunos a turmas e armazena informações sobre as notas dos alunos, suas notas finais e o número de faltas.
+Depois de criar as tabelas, o script insere dados nessas tabelas usando instruções INSERT INTO. Os dados inseridos incluem informações sobre alunos, turmas e matrículas.
+
+Após a inserção dos dados, o script realiza várias consultas para recuperar informações específicas do banco de dados:
+
+Retorna os nomes de todos os alunos.
+Retorna os números das matrículas dos alunos.
+Retorna os números das matrículas dos alunos que não estão matriculados em uma turma.
+Retorna os números dos alunos matriculados em uma turma específica (identificada pelo número da turma).
+Retorna o horário da turma de um aluno específico (identificado pelo nome do aluno).
+Retorna os nomes dos alunos matriculados em uma turma específica (identificada pelo número da turma).
+Retorna os nomes dos alunos que não estão matriculados em uma turma específica (identificada pelo número da turma).
+Retorna os nomes das turmas com alunos que têm nota final maior que 8.
