@@ -1,0 +1,15 @@
+Este script SQL cria um banco de dados chamado "exercicio3" e define seis tabelas: "empregado", "departamento", "localizacao", "trabalha_em", "projeto" e "dependente".
+
+A tabela "empregado" armazena informações sobre os funcionários, como seu ID, nome, data de aniversário, endereço, sexo, salário e o número de dependentes.
+A tabela "departamento" armazena informações sobre os departamentos da empresa, como o número do departamento, nome, ID do gerente e horário de funcionamento.
+A tabela "localizacao" relaciona um departamento a uma localização específica.
+A tabela "trabalha_em" relaciona funcionários a projetos e armazena informações sobre as horas trabalhadas em cada projeto.
+A tabela "projeto" armazena informações sobre os projetos da empresa, incluindo o número do projeto, nome e o número do departamento ao qual pertence.
+A tabela "dependente" armazena informações sobre os dependentes dos funcionários, como ID, ID do funcionário relacionado, nome, sexo, data de aniversário e parentesco.
+Depois de criar as tabelas, o script insere dados nessas tabelas usando instruções INSERT INTO. Os dados inseridos incluem informações sobre empregados, departamentos, localizações, projetos e dependentes.
+
+Após a inserção dos dados, o script realiza três consultas para recuperar informações específicas do banco de dados:
+
+Retorna o nome e o endereço de todos os empregados que trabalham para o Departamento de Compras.
+Para cada projeto localizado no 'Rio de Janeiro', exibe o número do projeto, o número do departamento que o controla e a identidade de seu gerente, seu endereço e a data de seu aniversário.
+Descobre os nomes dos projetos onde trabalham empregados com o nome 'João'.
