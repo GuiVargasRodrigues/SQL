@@ -1,0 +1,16 @@
+Este script SQL cria um banco de dados chamado "exercicio4" e define quatro tabelas: "Turmas", "Alunos", "Provas" e "Notas".
+
+A tabela "Turmas" armazena informações sobre as turmas, como o código da turma, o código da disciplina, a sigla da turma e o ano/semestre.
+A tabela "Alunos" armazena informações sobre os alunos, como o código do aluno e o nome do aluno.
+A tabela "Provas" armazena informações sobre as provas, como o código da turma, o número da prova e a data da prova.
+A tabela "Notas" armazena informações sobre as notas dos alunos em cada prova, incluindo o código da turma, o código do aluno, o número da prova e a nota.
+Depois de criar as tabelas, o script insere dados nessas tabelas usando instruções INSERT INTO. Os dados inseridos incluem informações sobre turmas, alunos, provas e notas.
+
+Após a inserção dos dados, o script realiza várias consultas para recuperar informações específicas do banco de dados:
+
+Seleciona todas as turmas e suas informações.
+Seleciona todos os alunos e seus códigos.
+Seleciona todas as provas e suas datas.
+Seleciona todas as notas dos alunos em todas as turmas e provas.
+Seleciona o nome do aluno e a nota obtida em cada prova por turma.
+Seleciona a média das notas de cada aluno em cada turma.
