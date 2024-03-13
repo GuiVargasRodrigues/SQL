@@ -1,0 +1,14 @@
+Criando o Banco de Dados e as Tabelas:
+
+Primeiro, ele cria o banco de dados chamado exercicio1.
+Em seguida, define a estrutura das tabelas vendedores, clientes e pedidos, especificando as colunas e os tipos de dados que elas armazenarão.
+Inserindo Dados nas Tabelas:
+
+Depois de criar as tabelas, são inseridos dados nelas usando o comando INSERT INTO. Isso preenche as tabelas com informações de exemplo para vendedores, clientes e pedidos.
+Consultas Utilizando INNER JOIN:
+
+São realizadas consultas que envolvem a junção (join) das tabelas vendedores, clientes e pedidos usando a cláusula INNER JOIN. Por exemplo, são obtidos os nomes dos vendedores que realizaram pedidos para clientes do tipo "INDUSTRIA".
+Consultas Utilizando LEFT JOIN:
+
+Similarmente, são realizadas consultas utilizando a cláusula LEFT JOIN, que retorna todos os registros da tabela à esquerda (primeira tabela mencionada) e os registros correspondentes da tabela à direita (segunda tabela mencionada). 
+Por exemplo, são obtidos os nomes dos vendedores que realizaram pedidos para clientes do tipo "INDUSTRIA" usando LEFT JOIN.
