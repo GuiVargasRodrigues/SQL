@@ -1,0 +1,64 @@
+- Tabela de tipos para os cursos (FK na turma);
+- IdAluno monitor na tabela de turma; (feito)
+- CPF não pode ser ID; (feito)
+- tabela de monitor é desnecessária. (feito)
+
+
+Tabela: Curso
+
+Atributos:
+IDCurso (Chave Primária)
+NomeCurso
+
+Tabela: Turma
+
+Atributos:
+IDTurma (Chave Primária)
+IDCurso (Chave Estrangeira referenciando Curso)
+IDAluno monitor
+QuantidadeAlunos
+HorarioAula
+DuracaoAula
+DataInicial
+DataFinal
+
+Tabela: Professor
+
+Atributos:
+CPF 
+Nome
+DataNascimento
+Titulacao
+
+Tabela: TelefoneProfessor
+
+Atributos:
+IDTelefone (Chave Primária)
+CPFProfessor (Chave Estrangeira referenciando Professor)
+NumeroTelefone
+
+Tabela: Aluno
+
+Atributos:
+Matricula (Chave Primária)
+Nome
+Endereco
+Telefone
+DataNascimento
+Altura
+Peso
+
+Tabela: Matricula
+
+Atributos:
+IDMatricula (Chave Primária)
+MatriculaAluno (Chave Estrangeira referenciando Aluno)
+IDTurma (Chave Estrangeira referenciando Turma)
+DataMatricula
+
+Tabela: Ausencia
+
+Atributos:
+IDAusencia (Chave Primária)
+IDMatricula (Chave Estrangeira referenciando Matricula)
+DataAusencia
