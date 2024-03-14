@@ -1,0 +1,10 @@
+Este script SQL cria um banco de dados chamado "exercicio5" e define sete tabelas: "Curso", "Turma", "Professor", "TelefoneProfessor", "Aluno", "Turma_Aluno" e "Registro_Ausencias".
+
+A tabela "Curso" armazena informações sobre os cursos oferecidos, como o ID do curso e o nome do curso.
+A tabela "Turma" armazena informações sobre as turmas, como o ID da turma, o ID do curso associado, a quantidade de alunos, o horário das aulas, a data inicial e a data final da turma.
+A tabela "Professor" armazena informações sobre os professores, como o CPF, nome, data de nascimento e titulação.
+A tabela "TelefoneProfessor" armazena os números de telefone dos professores.
+A tabela "Aluno" armazena informações sobre os alunos, como o código de matrícula, data de matrícula, nome, endereço, telefone, data de nascimento, altura e peso.
+A tabela "Turma_Aluno" associa alunos às turmas, indicando se o aluno é monitor da turma ou não.
+A tabela "Registro_Ausencias" registra as ausências dos alunos em determinadas datas.
+Após a definição das tabelas, o script insere dados nessas tabelas usando instruções INSERT INTO, fornecendo informações de exemplo sobre cursos, turmas, professores, alunos, associações de alunos às turmas e registros de ausências.
