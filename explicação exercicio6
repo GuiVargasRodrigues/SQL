@@ -1,0 +1,23 @@
+Este script SQL cria um banco de dados chamado "exercicio6" e define seis tabelas: "Curso", "Professor", "Aluno", "Turma", "Ausencia" e "TelefoneProfessor".
+
+A tabela "Curso" armazena informações sobre os cursos oferecidos, incluindo o ID do curso, o nome do curso e a descrição do curso.
+A tabela "Professor" armazena informações sobre os professores, como o CPF, nome, data de nascimento e titulação.
+A tabela "Aluno" armazena informações sobre os alunos, incluindo o ID do aluno, código de matrícula, data de matrícula, nome, endereço, telefone, data de nascimento, altura e peso.
+A tabela "Turma" armazena informações sobre as turmas, incluindo o ID da turma, ID do curso associado, CPF do professor, ID do aluno monitor, quantidade de alunos, horário da aula, duração da aula, data inicial e data final.
+A tabela "Ausencia" registra as ausências dos alunos em determinadas datas.
+A tabela "TelefoneProfessor" armazena os números de telefone dos professores.
+Após a definição das tabelas, o script insere dados nessas tabelas usando instruções INSERT INTO, fornecendo informações de exemplo sobre cursos, professores, alunos, turmas e ausências.
+
+Além disso, o script realiza várias consultas e operações de atualização e exclusão:
+
+Consulta para selecionar todos os alunos.
+Consulta para selecionar informações de aluno e turma onde o aluno é o monitor da turma.
+Consulta para selecionar alunos que não têm registro de ausência.
+Consulta para contar quantas turmas cada professor ministra.
+Consulta para selecionar informações sobre as turmas, incluindo o nome do professor, telefone, ID da turma, data inicial, data final, horário de aula, nome do curso e nome do aluno monitor.
+Consulta para selecionar o nome do professor e o ID da turma onde ele tem o maior número de alunos.
+Consulta para selecionar o nome do aluno e o ID da turma onde ele tem o maior número de ausências registradas.
+Consulta para calcular a média de alunos por curso.
+Atualização para converter todos os nomes de professores e alunos em maiúsculas.
+Atualização para converter o nome do aluno monitor da turma com o maior número de alunos em maiúsculas.
+Exclusão de registros de ausência de alunos que são monitores de turmas.
